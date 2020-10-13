@@ -7,7 +7,10 @@
             "email": "ken1100327@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.1",
+        "nesbot/carbon": "^2.41"
+    },
     "autoload": {
         "psr-4": {
               "Demo\\": "./src/Demo"
